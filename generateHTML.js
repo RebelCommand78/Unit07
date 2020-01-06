@@ -45,6 +45,8 @@ function generateHTML(data) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <title>Document</title>
         <style>
             @page {
@@ -177,9 +179,9 @@ function generateHTML(data) {
            <div class="wrapper">
               <div class="photo-header">
                  <img src="${data.avatar_url}" alt="Profile Picture" />
-                 <h1>Hi!</h1>
+                 <h1>Hello There!</h1>
                  <h2>
-                 My name is ${data.name}</h1>
+                 I'm ${data.name}</h1>
                  <nav class="links-nav">
                     <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/${data.location}"><i class="fas fa-location-arrow"></i> ${data.location}</a>
                     <a class="nav-link" target="_blank" rel="noopener noreferrer" href="${data.html_url}"><i class="fab fa-github-alt"></i> GitHub</a>
@@ -196,7 +198,7 @@ function generateHTML(data) {
                     <div class="row">
                     <div class="col">
                        <div class="card">
-                         <h3>Public Repositories</h3>
+                         <h3>Repositories</h3>
                          <h4>${data.public_repos}</h4>
                        </div>
                     </div>
@@ -210,7 +212,7 @@ function generateHTML(data) {
                     <div class="row">
                     <div class="col">
                     <div class="card">
-                       <h3>GitHub Stars</h3>
+                       <h3>Stars</h3>
                        <h4>${data.stars}</h4>
                        </div>
                     </div>
