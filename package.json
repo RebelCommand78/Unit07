@@ -1,5 +1,5 @@
 {
-  "name": "Developer-Profile-Generator",
+  "name": "Unit07",
   "version": "1.0.0",
   "description": "A command-line application that dynamically generates a PDF profile from a GitHub username.",
   "main": "index.js",
