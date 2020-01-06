@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/verlitas/Developer-Profile-Generator.git"
+    "url": "git+https://github.com/RebelCommand78/Unit07"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/verlitas/Developer-Profile-Generator/issues"
+    "url": "https://github.com/RebelCommand78/Unit07/issues"
   },
-  "homepage": "https://github.com/verlitas/Developer-Profile-Generator#readme",
+  "homepage": "https://github.com/RebelCommand78/Unit07/blob/master/README.md",
   "dependencies": {
     "axios": "^0.19.0",
     "electron": "^7.1.1",
